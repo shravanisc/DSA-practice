@@ -1,0 +1,10 @@
+list = [1, 2, 3, 4, 5, 34]
+
+sum = 0
+
+for i in list:
+    sum += i
+
+average = sum / len(list)
+
+print(average)
