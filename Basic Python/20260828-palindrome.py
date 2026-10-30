@@ -27,3 +27,18 @@ if isPalindrome == True:
     print("Palindrome")
 else:
     print("Not palindrome")
+
+
+
+    def palindrome(text):
+    rev = ""
+
+    for ch in text:
+        rev = ch + rev
+
+    if text == rev:
+        print("Palindrome")
+    else:
+        print("Not a palindrome")
+
+palindrome("madam")
